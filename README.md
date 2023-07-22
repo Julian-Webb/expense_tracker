@@ -1,16 +1,5 @@
 # expense_tracker
 
-A new Flutter project.
+An app built with Flutter/Dart to track expenses and categorize them.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can add and delete expenses with titles, dates, categories, and amounts. The app also displays a chart of the relative spendings in each category.
