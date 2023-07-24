@@ -25,7 +25,7 @@ class _ExpensesState extends State<Expenses> {
         date: DateTime.now(),
         category: Category.work),
     Expense(
-        title: 'Cinema (Barbie Movie)',
+        title: 'Cinema',
         amount: 12.99,
         date: DateTime.now(),
         category: Category.leisure),
