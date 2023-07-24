@@ -7,6 +7,11 @@ var kDarkColorScheme = ColorScheme.fromSeed(
     brightness: Brightness.dark, seedColor: Colors.orange.shade200);
 
 void main() {
+  // let's us set which screen rotation orientations are allowed
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations(
+  //   [DeviceOrientation.portraitUp],
+  // ).then((fn) {
   runApp(
     MaterialApp(
       darkTheme: ThemeData.dark().copyWith(
@@ -76,4 +81,5 @@ void main() {
       home: const Expenses(),
     ),
   );
+  // });
 }
